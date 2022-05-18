@@ -42,7 +42,7 @@ client.on('interactionCreate' , async interaction => {
 client.on('messageCreate', async message => {
     if(message.content === "hi"){
         console.log('messages works');
-        await message.channel.send('Hello, who is there');
+        await message.channel.send('Hello, welcome to the server');
     }
 });
 
